@@ -9,6 +9,8 @@ function App() {
     <div>
       <h1></h1>
       <DisplayPosts postsBelow={posts} />
+      <CreatePosts topPosts={posts} />
+      <Posts postsExists={posts} />
     </div>
   );
 }
